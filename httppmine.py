@@ -12,6 +12,12 @@ def banner(domain, ip):
 	print "IP:",ip
 	print "=======##########################=======\n"
 
+
+if len(sys.argv) < 3:
+	print "Use: python",sys.argv[0], "<http://domain.com/> <method> <wordlist - optional>"
+	print "Avaliable methods: -g <get>"
+	exit(0)
+
 domain = sys.argv[1]
 method = sys.argv[2]
 
