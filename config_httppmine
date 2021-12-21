@@ -1,0 +1,26 @@
+# To define a custom http header, you must follow the following pattern
+#
+# {
+# header_http1:value
+# header_http2:value 
+# header_http3:value}
+# 
+# (no spaces between the [ : ] )
+
+http_header{
+
+User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/97.0.4690.186 Chrome/97.0.4690.186 Safari/537.36
+accept:*/*
+
+}
+
+http_values{
+<img src=x onerror=alert(2)>
+admin
+true
+false
+myballs
+1111
+2222
+3333
+}
