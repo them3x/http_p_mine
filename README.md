@@ -16,4 +16,4 @@ PyLib Dependencies:
 
 --------------
 
-run: python2 httppmine.py <url> <method -g / -p>
+run:<code> python2 httppmine.py <url\> <method -g / -p\></code>
